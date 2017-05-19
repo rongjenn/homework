@@ -16,9 +16,7 @@ public class MergeSort {
 		}
 		printarr(arr);
 		int[] result = mergesort(arr,0,arr.length-1);
-		for(int i=0 ; i < result.length ; i++) {
-			System.out.print(result[i] + " ");
-		}
+		printarr(result);
 	}
 	public int[] mergesort(int[] arr, int begin, int end) {
 		int[] result = null;
